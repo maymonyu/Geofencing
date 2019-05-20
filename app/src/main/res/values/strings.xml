@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Geofencing</string>
     <string name="title_activity_maps">Map</string>
+    <string name="accessId">pk.eyJ1IjoieXV2Y3J1diIsImEiOiJjanZ1enU0aHIwN2hjNDltcmU0Zjdkemx3In0.iq7sRIYejOCswNnw3CvuTQ</string>
 </resources>
