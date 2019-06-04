@@ -11,8 +11,30 @@
         android:id="@+id/mapView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        mapbox:layout_constraintBottom_toTopOf="@+id/fencingStatus"
+        mapbox:layout_constraintTop_toTopOf="parent"
         mapbox:mapbox_cameraTargetLat="32.078899"
         mapbox:mapbox_cameraTargetLng="34.794590"
-        mapbox:mapbox_cameraZoom="11" />
+        mapbox:mapbox_cameraZoom="14" />
+
+    <TextView
+        android:id="@+id/fencingStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:background="@color/lightBlue"
+        android:gravity="center"
+        android:text="@string/fencing_status"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        mapbox:layout_constraintBottom_toBottomOf="parent"
+        mapbox:layout_constraintEnd_toEndOf="parent"
+        mapbox:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
